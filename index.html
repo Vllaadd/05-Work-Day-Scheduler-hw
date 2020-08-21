@@ -29,120 +29,113 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <div class="input-group input-group-lg">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-lg">07:00am</span>
-        </div>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-        <button type="button" class="btn btn-outline-primary">Save</button>
-        <button type="button" class="btn btn-outline-secondary">Mark Complete</button>
-      </div>
-      <div class="input-group input-group-lg">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-lg">08:00am</span>
-        </div>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"><button type="button" class="btn btn-outline-primary">Save</button>
-        <button type="button" class="btn btn-outline-secondary">Mark Complete</button>
-      </div>
-      <div class="input-group input-group-lg">
+      <div id="div9" class="input-group input-group-lg">
         <div class="input-group-prepend">
           <span class="input-group-text" id="inputGroup-sizing-lg">09:00am</span>
         </div>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-        <button type="button" class="btn btn-outline-primary">Save</button>
-        <button type="button" class="btn btn-outline-secondary">Mark Complete</button>
+        <input id="task9" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        <button id="save9" onclick="saveTask()" type="button" class="btn btn-outline-primary">Save</button>
+        <button id="completed9" onclick="markComplited()" type="button" class="btn btn-outline-secondary">Mark Complete</button>
       </div>
-      <div class="input-group input-group-lg">
+      <div id="div10" class="input-group input-group-lg">
         <div class="input-group-prepend">
           <span class="input-group-text" id="inputGroup-sizing-lg">10:00am</span>
         </div>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-        <button type="button" class="btn btn-outline-primary">Save</button>
-        <button type="button" class="btn btn-outline-secondary">Mark Complete</button>
+        <input id="task10" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        <button id="save10" onclick="saveTask()" type="button" class="btn btn-outline-primary">Save</button>
+        <button id="completed10" onclick="markComplited()" type="button" class="btn btn-outline-secondary">Mark Complete</button>
       </div>
-      <div class="input-group input-group-lg">
+      <div id="div11" class="input-group input-group-lg">
         <div class="input-group-prepend">
           <span class="input-group-text" id="inputGroup-sizing-lg">11:00am</span>
         </div>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-        <button type="button" class="btn btn-outline-primary">Save</button>
-        <button type="button" class="btn btn-outline-secondary">Mark Complete</button>
+        <input id="task11" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        <button id="save11" onclick="saveTask()" type="button" class="btn btn-outline-primary">Save</button>
+        <button id="completed11" onclick="markComplited()" type="button" class="btn btn-outline-secondary">Mark Complete</button>
       </div>
-      <div class="input-group input-group-lg">
+      <div id="div12" class="input-group input-group-lg">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-lg">12:00am</span>
+          <span class="input-group-text" id="inputGroup-sizing-lg">12:00pm</span>
         </div>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-        <button type="button" class="btn btn-outline-primary">Save</button>
-        <button type="button" class="btn btn-outline-secondary">Mark Complete</button>
+        <input id="task12" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        <button id="save12" onclick="saveTask()" type="button" class="btn btn-outline-primary">Save</button>
+        <button id="completed12" onclick="markComplited()" type="button" class="btn btn-outline-secondary">Mark Complete</button>
       </div>
-      <div class="input-group input-group-lg">
+      <div id="div13" class="input-group input-group-lg">
         <div class="input-group-prepend">
           <span class="input-group-text" id="inputGroup-sizing-lg">01:00pm</span>
         </div>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-        <button type="button" class="btn btn-outline-primary">Save</button>
-        <button type="button" class="btn btn-outline-secondary">Mark Complete</button>
+        <input id="task13" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        <button id="save13" onclick="saveTask()" type="button" class="btn btn-outline-primary">Save</button>
+        <button id="completed13" onclick="markComplited()" type="button" class="btn btn-outline-secondary">Mark Complete</button>
       </div>
-      <div class="input-group input-group-lg">
+      <div id="div14" class="input-group input-group-lg">
         <div class="input-group-prepend">
           <span class="input-group-text" id="inputGroup-sizing-lg">02:00pm</span>
         </div>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-        <button type="button" class="btn btn-outline-primary">Save</button>
-        <button type="button" class="btn btn-outline-secondary">Mark Complete</button>
+        <input id="task14" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        <button id="save14" onclick="saveTask()" type="button" class="btn btn-outline-primary">Save</button>
+        <button id="completed14" onclick="markComplited()" type="button" class="btn btn-outline-secondary">Mark Complete</button>
       </div>
-      <div class="input-group input-group-lg">
+      <div id="div15" class="input-group input-group-lg">
         <div class="input-group-prepend">
           <span class="input-group-text" id="inputGroup-sizing-lg">03:00pm</span>
         </div>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-        <button type="button" class="btn btn-outline-primary">Save</button>
-        <button type="button" class="btn btn-outline-secondary">Mark Complete</button>
+        <input id="task15" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        <button id="save15" onclick="saveTask()" type="button" class="btn btn-outline-primary">Save</button>
+        <button id="completed15" onclick="markComplited()" nclick="markComplited()" type="button" class="btn btn-outline-secondary">Mark Complete</button>
       </div>
-      <div class="input-group input-group-lg">
+      <div id="div16" class="input-group input-group-lg">
         <div class="input-group-prepend">
           <span class="input-group-text" id="inputGroup-sizing-lg">04:00pm</span>
         </div>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-        <button type="button" class="btn btn-outline-primary">Save</button>
-        <button type="button" class="btn btn-outline-secondary">Mark Complete</button>
+        <input id="task16" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        <button id="save16" onclick="saveTask()" type="button" class="btn btn-outline-primary">Save</button>
+        <button id="completed16" onclick="markComplited()" onclick="markComplited()" type="button" class="btn btn-outline-secondary">Mark Complete</button>
       </div>
-      <div class="input-group input-group-lg">
+      <div id="div17" class="input-group input-group-lg">
         <div class="input-group-prepend">
           <span class="input-group-text" id="inputGroup-sizing-lg">05:00pm</span>
         </div>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-        <button type="button" class="btn btn-outline-primary">Save</button>
-        <button type="button" class="btn btn-outline-secondary">Mark Complete</button>
+        <input id="task17" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        <button id="save17" onclick="saveTask()" type="button" class="btn btn-outline-primary">Save</button>
+        <button id="completed17" onclick="markComplited()" type="button" class="btn btn-outline-secondary">Mark Complete</button>
       </div>
-      <div class="input-group input-group-lg">
+      <div id="div18" class="input-group input-group-lg">
         <div class="input-group-prepend">
           <span class="input-group-text" id="inputGroup-sizing-lg">06:00pm</span>
         </div>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-        <button type="button" class="btn btn-outline-primary">Save</button>
-        <button type="button" class="btn btn-outline-secondary">Mark Complete</button>
+        <input id="task18" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        <button id="save18" onclick="saveTask()" type="button" class="btn btn-outline-primary">Save</button>
+        <button id="completed18" onclick="markComplited()" type="button" class="btn btn-outline-secondary">Mark Complete</button>
       </div>
-      <div class="input-group input-group-lg">
+      <div id="div19" class="input-group input-group-lg">
         <div class="input-group-prepend">
           <span class="input-group-text" id="inputGroup-sizing-lg">07:00pm</span>
         </div>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-        <button type="button" class="btn btn-outline-primary">Save</button>
-        <button type="button" class="btn btn-outline-secondary">Mark Complete</button>
+        <input id="task19" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        <button id="save19" onclick="saveTask()" type="button" class="btn btn-outline-primary">Save</button>
+        <button id="completed19" onclick="markComplited()" type="button" class="btn btn-outline-secondary">Mark Complete</button>
       </div>
-      <div class="input-group input-group-lg">
+      <div id="div20" class="input-group input-group-lg">
         <div class="input-group-prepend">
           <span class="input-group-text" id="inputGroup-sizing-lg">08:00pm</span>
         </div>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-        <button type="button" class="btn btn-outline-primary">Save</button>
-        <button type="button" class="btn btn-outline-secondary">Mark Complete</button>
+        <input id="task20" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        <button id="save20" onclick="saveTask()" type="button" class="btn btn-outline-primary">Save</button>
+        <button id="completed20" onclick="markComplited()" type="button" class="btn btn-outline-secondary">Mark Complete</button>
+      </div>
+      <div id="div21" class="input-group input-group-lg">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-lg">09:00pm</span>
+        </div>
+        <input id="task21" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        <button id="save21" onclick="saveTask()" type="button" class="btn btn-outline-primary">Save</button>
+        <button id="completed21" onclick="markComplited()" type="button" class="btn btn-outline-secondary">Mark Complete</button>
       </div>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js" ></script>
   </body>
 </html>
