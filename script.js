@@ -42,7 +42,7 @@
     setInterval(checkTime(), (1000 * 60) * 5);
 
 
-//creating the key 
+// //creating the key 
         var keyEl09 = document.querySelector('key09');
         var keyEl10 = document.querySelector('key10');
         var keyEl11 = document.querySelector('key11');
@@ -77,126 +77,108 @@
         
             function saveTask(){
                 localStorage.setItem( 'key09' , task09.value);  
-            }
-            function saveTask(){
                 localStorage.setItem( 'key10' , task10.value);
+                localStorage.setItem( 'key11' , task11.value);
+                localStorage.setItem( 'key12' , task12.value);
+                localStorage.setItem( 'key13' , task13.value);
+                localStorage.setItem( 'key14' , task14.value);
+                localStorage.setItem( 'key15' , task15.value);
+                localStorage.setItem( 'key16' , task16.value);
+                localStorage.setItem( 'key17' , task17.value);
+                localStorage.setItem( 'key18' , task18.value);
+                localStorage.setItem( 'key19' , task19.value);
+                localStorage.setItem( 'key20' , task20.value);
+                localStorage.setItem( 'key21' , task21.value);
             }
-            function saveTask(){
-                localStorage.setItem( 'save11' , task11.value);
-            }
-            function saveTask(){
-                localStorage.setItem( 'save12' , task12.value);
-            }
-            function saveTask(){
-                localStorage.setItem( 'save13' , task13.value);
-            }
-            function saveTask(){
-                localStorage.setItem( 'save14' , task14.value);
-            }
-            function saveTask(){
-                localStorage.setItem( 'save15' , task15.value);
-            }
-            function saveTask(){
-                localStorage.setItem( 'save16' , task16.value);
-            }
-            function saveTask(){
-                localStorage.setItem( 'save17' , task17.value);
-            }
-            function saveTask(){
-                localStorage.setItem( 'save18' , task18.value);
-            }
-            function saveTask(){
-                localStorage.setItem( 'save19' , task19.value);
-            }
-            function saveTask(){
-                localStorage.setItem( 'save20' , task20.value);
-            }
-            function saveTask(){
-                localStorage.setItem( 'save21' , task21.value);
-            }
+
+    
               
 
-            var taskItem09 = localStorage.getItem('key09');
-            var taskItem09 = localStorage.getItem('key10');
-            var taskItem09 = localStorage.getItem('key11');
-            var taskItem09 = localStorage.getItem('key12');
-            var taskItem09 = localStorage.getItem('key13');
-            var taskItem09 = localStorage.getItem('key14');
-            var taskItem09 = localStorage.getItem('key15');
-            var taskItem09 = localStorage.getItem('key16');
-            var taskItem09 = localStorage.getItem('key17');
-            var taskItem09 = localStorage.getItem('key18');
-            var taskItem09 = localStorage.getItem('key19');
-            var taskItem09 = localStorage.getItem('key20');
-            var taskItem09 = localStorage.getItem('key21');
+            // var taskEl09 = localStorage.getItem('key09');
+            // var taskEl10 = localStorage.getItem('key10');
+            // var taskEl11 = localStorage.getItem('key11');
+            // var taskEl12 = localStorage.getItem('key12');
+            // var taskEl13 = localStorage.getItem('key13');
+            // var taskEl14 = localStorage.getItem('key14');
+            // var taskEl15 = localStorage.getItem('key15');
+            // var taskEl16 = localStorage.getItem('key16');
+            // var taskEl17 = localStorage.getItem('key17');
+            // var taskEl18 = localStorage.getItem('key18');
+            // var taskEl19 = localStorage.getItem('key19');
+            // var taskEl20 = localStorage.getItem('key20');
+            // var taskEl12 = localStorage.getItem('key21');
+
+   
+
+
 
 
             function markCompleted(){
-                localStorage.removeItem('key09' , taskItem09.value);
+                localStorage.removeItem('key09' , task09);
                 task09.style.backgroundColor = 'gray';
                 task09.value = "";
-            }
 
-            function markCompleted(){
-                localStorage.removeItem('key10' , taskItem10.value);
-                task10.style.backgroundColor = 'gray';
-                task09.value = "";
             }
-            function markCompleted(){
-                localStorage.removeItem('key11' , task11.value);
-                task11.style.backgroundColor = 'gray';
-                task09.value = "";
-            }
-            function markCompleted(){
-                localStorage.removeItem('key12' , task12.value);
-                task12.style.backgroundColor = 'gray';
-                task09.value = "";
-            }
-            function markCompleted(){
-                localStorage.removeItem('key13' , task13.value);
-                task13.style.backgroundColor = 'gray';
-                task09.value = "";
-            }
-            function markCompleted(){
-                localStorage.removeItem('key14' , task14.value);
-                task14.style.backgroundColor = 'gray';
-                task09.value = "";
-            }
-            function markCompleted(){
-                localStorage.removeItem('key15' , task15.value);
-                task15.style.backgroundColor = 'gray';
-                task09.value = "";
-            }
-            function markCompleted(){
-                localStorage.removeItem('key16' , task16.value);
-                task16.style.backgroundColor = 'gray';
-                task09.value = "";
-            }
-            function markCompleted(){
-                localStorage.removeItem('key17' , task17.value);
-                task17.style.backgroundColor = 'gray';
-                task09.value = "";
-            }
-            function markCompleted(){
-                localStorage.removeItem('key18' , task18.value);
-                task18.style.backgroundColor = 'gray';
-                task09.value = "";
-            }
-            function markCompleted(){
-                localStorage.removeItem('key19' , task19.value);
-                task19.style.backgroundColor = 'gray';
-                task09.value = "";
-            }
-            function markCompleted(){
-                localStorage.removeItem('key20' , task20.value);
-                task20.style.backgroundColor = 'gray';
-                task09.value = "";
-            }
-            function markCompleted(){
-                localStorage.removeItem('key21' , task21.value);
-                task21.style.backgroundColor = 'gray';
-                task09.value = "";
-            }
+            // function markCompleted(){
+            //     localStorage.removeItem('key10' , task10);
+            //     task10.style.backgroundColor = 'gray';
+            //     task09.value = "";
+            // }
+            // function markCompleted(){
+            //     localStorage.removeItem('key11' , task11.value);
+            //     task11.style.backgroundColor = 'gray';
+            //     task09.value = "";
+            // }
+            // function markCompleted(){
+            //     localStorage.removeItem('key12' , task12.value);
+            //     task12.style.backgroundColor = 'gray';
+            //     task09.value = "";
+            // }
+            // function markCompleted(){
+            //     localStorage.removeItem('key13' , task13.value);
+            //     task13.style.backgroundColor = 'gray';
+            //     task09.value = "";
+            // }
+            // function markCompleted(){
+            //     localStorage.removeItem('key14' , task14.value);
+            //     task14.style.backgroundColor = 'gray';
+            //     task09.value = "";
+            // }
+            // function markCompleted(){
+            //     localStorage.removeItem('key15' , task15.value);
+            //     task15.style.backgroundColor = 'gray';
+            //     task09.value = "";
+            // }
+            // function markCompleted(){
+            //     localStorage.removeItem('key16' , task16.value);
+            //     task16.style.backgroundColor = 'gray';
+            //     task09.value = "";
+            // }
+            // function markCompleted(){
+            //     localStorage.removeItem('key17' , task17.value);
+            //     task17.style.backgroundColor = 'gray';
+            //     task09.value = "";
+            // }
+            // function markCompleted(){
+            //     localStorage.removeItem('key18' , task18.value);
+            //     task18.style.backgroundColor = 'gray';
+            //     task09.value = "";
+            // }
+            // function markCompleted(){
+            //     localStorage.removeItem('key19' , task19.value);
+            //     task19.style.backgroundColor = 'gray';
+            //     task09.value = "";
+            // }
+            // function markCompleted(){
+            //     localStorage.removeItem('key20' , task20.value);
+            //     task20.style.backgroundColor = 'gray';
+            //     task09.value = "";
+            // }
+            // function markCompleted(){
+            //     localStorage.removeItem('key21' , task21.value);
+            //     task21.style.backgroundColor = 'gray';
+            //     task09.value = "";
+            // }
 
    
 
