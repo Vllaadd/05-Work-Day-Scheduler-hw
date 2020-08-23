@@ -42,22 +42,6 @@
     setInterval(checkTime(), (1000 * 60) * 5)
 
 
-//targeting save buttons
-        var save09 = document.querySelector('#save09');
-        var save10 = document.querySelector('#save10');
-        var save11 = document.querySelector('#save11');
-        var save12 = document.querySelector('#save12');
-        var save13 = document.querySelector('#save13');
-        var save14 = document.querySelector('#save14');
-        var save15 = document.querySelector('#save15');
-        var save16 = document.querySelector('#save16');
-        var save17 = document.querySelector('#save17');
-        var save18 = document.querySelector('#save18');
-        var save19 = document.querySelector('#save19');
-        var save20 = document.querySelector('#save20');
-        var save21 = document.querySelector('#save21');
-
-
  
 //save the task button
             function saveTask09(){
@@ -106,18 +90,18 @@
             function markCompleted09(){
                 localStorage.removeItem('task09');
                 task09.style.backgroundColor = 'gray';
-                task09 = "";
+                task09.value = "";
 
             }
             function markCompleted10(){
                 localStorage.removeItem('task10');
                 task10.style.backgroundColor = 'gray';
-                task10 = "";
+                task10.value = "";
             }
             function markCompleted11(){
                 localStorage.removeItem('task11');
                 task11.style.backgroundColor = 'gray';
-                task11 = "";
+                task11.value = "";
             }
             function markCompleted12(){
                 localStorage.removeItem('task12');
@@ -170,10 +154,7 @@
                 task21.value = "";
             }
 
-   
 
-//save entries to the local storage (TRY THROUGH LOOP)
-          //do all three local storage set, get and remove items
 
 
 
