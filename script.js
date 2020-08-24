@@ -20,26 +20,39 @@
     var task20 = document.querySelector('#task20');
     var task21 = document.querySelector('#task21');
 
-    var userInputs = [task09, task10, task11, task12, task13, task14, task15, task16, task17, task18, task19, task20, task21];
 
-    var checkTime = function(){
-        
-        var currentHour = moment().format('H');
-
-        for(var i = 0; i < userInputs.length; i++){
-            if(userInputs[i] < currentHour){
-                $(userInputs[i]).addClass('past');
-            }
-            if(userInputs[i] === currentHour){
-                $(userInputs[i]).addClass('present');
-            }
-            if(userInputs[i] < currentHour){
-                $(userInputs[i]).addClass('future');
-
-            }
-        }
+//this is not working    
+    if(task09 == (moment().hour())){
+        task09.style.backgroundColor = "green"
     }
-    setInterval(checkTime(), (1000 * 60) * 5)
+    if(task09 < (moment().hour())){
+        task09.style.backgroundColor = "blue"
+    }
+    if(task09 > (moment().hour())){
+        task09.style.backgroundColor = "yellow"
+    }
+
+
+    // var userInputs = [task09, task10, task11, task12, task13, task14, task15, task16, task17, task18, task19, task20, task21];
+
+    // var checkTime = function(){
+        
+    //     var currentHour = moment().format('H');
+
+    //     for(var i = 0; i < userInputs.length; i++){
+    //         if(userInputs[i] < currentHour){
+    //             $(userInputs[i]).addClass('past');
+    //         }
+    //         if(userInputs[i] === currentHour){
+    //             $(userInputs[i]).addClass('present');
+    //         }
+    //         if(userInputs[i] < currentHour){
+    //             $(userInputs[i]).addClass('future');
+
+    //         }
+    //     }
+    // }
+    // setInterval(checkTime(), (1000 * 60) * 5)
 
 
  
