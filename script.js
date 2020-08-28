@@ -209,22 +209,6 @@
         //     task21.style.backgroundColor = 'blue'
         // }
 
-   
-   
-   
-   
-   
-//    if(input09 === moment().hour()){
-//        task09.style.backgroundColor = 'green'
-//    }
-//    if(input09 > moment().hour()){
-//        task09.style.backgroundColor = 'brown'
-//    }
-//    if(input09 < moment().hour()){
-//        task09.style.backgroundColor = 'blue'
-//    }
-
-
     // var userInputs = [task09, task10, task11, task12, task13, task14, task15, task16, task17, task18, task19, task20, task21];
 
     // var checkTime = function(){
