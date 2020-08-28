@@ -292,7 +292,7 @@
             function markCompleted09(){
                 localStorage.removeItem('task09');
                 task09.style.backgroundColor = 'gray';
-                // task09.value = "";
+                task09.value = "";
 
             }
             function markCompleted10(){
