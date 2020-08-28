@@ -43,34 +43,34 @@
 
     for(var hours of hourBlocks){
         if(hours < moment().hour()){
-            task09.style.backgroundColor = 'gray'
-            task10.style.backgroundColor = 'gray'
-            task11.style.backgroundColor = 'gray'
-            task12.style.backgroundColor = 'gray'
-            task13.style.backgroundColor = 'gray'
-            task14.style.backgroundColor = 'gray'
-            task15.style.backgroundColor = 'gray'
-            task16.style.backgroundColor = 'gray'
-            task17.style.backgroundColor = 'gray'
-            task18.style.backgroundColor = 'gray'
-            task19.style.backgroundColor = 'gray'
-            task20.style.backgroundColor = 'gray'
-            task21.style.backgroundColor = 'gray'
+            task09.style.backgroundColor = '#B0E0E6'
+            task10.style.backgroundColor = '#B0E0E6'
+            task11.style.backgroundColor = '#B0E0E6'
+            task12.style.backgroundColor = '#B0E0E6'
+            task13.style.backgroundColor = '#B0E0E6'
+            task14.style.backgroundColor = '#B0E0E6'
+            task15.style.backgroundColor = '#B0E0E6'
+            task16.style.backgroundColor = '#B0E0E6'
+            task17.style.backgroundColor = '#B0E0E6'
+            task18.style.backgroundColor = '#B0E0E6'
+            task19.style.backgroundColor = '#B0E0E6'
+            task20.style.backgroundColor = '#B0E0E6'
+            task21.style.backgroundColor = '#B0E0E6'
         }
         if(hours === moment().hour()){
-            task09.style.backgroundColor = 'green'
-            task10.style.backgroundColor = 'green'
-            task11.style.backgroundColor = 'green'
-            task12.style.backgroundColor = 'green'
-            task13.style.backgroundColor = 'green'
-            task14.style.backgroundColor = 'green'
-            task15.style.backgroundColor = 'green'
-            task16.style.backgroundColor = 'green'
-            task17.style.backgroundColor = 'green'
-            task18.style.backgroundColor = 'green'
-            task19.style.backgroundColor = 'green'
-            task20.style.backgroundColor = 'green'
-            task21.style.backgroundColor = 'green'
+            task09.style.backgroundColor = 'white'
+            task10.style.backgroundColor = 'white'
+            task11.style.backgroundColor = 'white'
+            task12.style.backgroundColor = 'white'
+            task13.style.backgroundColor = 'white'
+            task14.style.backgroundColor = 'white'
+            task15.style.backgroundColor = 'white'
+            task16.style.backgroundColor = 'white'
+            task17.style.backgroundColor = 'white'
+            task18.style.backgroundColor = 'white'
+            task19.style.backgroundColor = 'white'
+            task20.style.backgroundColor = 'white'
+            task21.style.backgroundColor = 'white'
         }
         if(hours > moment().hour()){
             task09.style.backgroundColor = 'blue'
@@ -235,42 +235,55 @@
 //save the task button
             function saveTask09(){
                 localStorage.setItem( 'task09' , task09.value);  
+                task09.style.backgroundColor = '#00FF00'
             }
             function saveTask10(){
                 localStorage.setItem( 'task10' , task10.value);
+                task10.style.backgroundColor = '#00FF00'
             }
             function saveTask11(){
                 localStorage.setItem( 'task11' , task11.value);
+                task11.style.backgroundColor = '#00FF00'
             }
             function saveTask12(){
                 localStorage.setItem( 'task12' , task12.value);
+                task12.style.backgroundColor = '#00FF00'
             }
             function saveTask13(){
                 localStorage.setItem( 'task13' , task13.value);
+                task13.style.backgroundColor = '#00FF00'
             }
             function saveTask14(){
                 localStorage.setItem( 'task14' , task14.value);
+                task14.style.backgroundColor = '#00FF00'
             }
             function saveTask15(){
                 localStorage.setItem( 'task15' , task15.value);
+                task15.style.backgroundColor = '#00FF00'
             }
             function saveTask16(){
                 localStorage.setItem( 'task16' , task16.value);
+                task16.style.backgroundColor = '#00FF00'
             }
             function saveTask17(){
                 localStorage.setItem( 'task17' , task17.value);
+                task17.style.backgroundColor = '#00FF00'
             }
             function saveTask18(){
                 localStorage.setItem( 'task18' , task18.value);
+                task18.style.backgroundColor = '#00FF00'
             }
             function saveTask19(){
                 localStorage.setItem( 'task19' , task19.value);
+                task19.style.backgroundColor = '#00FF00'
             }
             function saveTask20(){
                 localStorage.setItem( 'task20' , task20.value);
+                task20.style.backgroundColor = '#00FF00'
             }
             function saveTask21(){
                 localStorage.setItem( 'task21' , task21.value);
+                task21.style.backgroundColor = '#00FF00'
             }
             
 
@@ -279,7 +292,7 @@
             function markCompleted09(){
                 localStorage.removeItem('task09');
                 task09.style.backgroundColor = 'gray';
-                task09.value = "";
+                // task09.value = "";
 
             }
             function markCompleted10(){
