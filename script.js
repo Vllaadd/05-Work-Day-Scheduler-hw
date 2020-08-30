@@ -4,8 +4,7 @@
     var currentHour = moment().format('hh:mm');
     todayIs.innerHTML = todaysDate + ' , ' + currentHour; 
 
-
-//targetting the id 
+//targetting the element by id 
     var task09 = document.querySelector('#task09');
     var task10 = document.querySelector('#task10');
     var task11 = document.querySelector('#task11');
@@ -34,7 +33,6 @@
     var num19 = task19.id.match(/\d+/g)[0];
     var num20 = task20.id.match(/\d+/g)[0];
     var num21 = task21.id.match(/\d+/g)[0];
-
       
 //setting the color according to current hour
         if(num09 < moment().hour()){
@@ -211,7 +209,35 @@
                 task21.style.backgroundColor = '#00FF00'
             }
             
+//getItem 
+      var getTask09 = localStorage.getItem('task09');
+      var getTask10 = localStorage.getItem('task10');
+      var getTask11 = localStorage.getItem('task11');
+      var getTask12 = localStorage.getItem('task12');
+      var getTask13 = localStorage.getItem('task13');
+      var getTask14 = localStorage.getItem('task14');
+      var getTask15 = localStorage.getItem('task15');
+      var getTask16 = localStorage.getItem('task16');
+      var getTask17 = localStorage.getItem('task17');
+      var getTask18 = localStorage.getItem('task18');
+      var getTask19 = localStorage.getItem('task19');
+      var getTask20 = localStorage.getItem('task20');
+      var getTask21 = localStorage.getItem('task21');
 
+//tasks will remain after the page is refreshed
+      task09.value = getTask09;
+      task10.value = getTask10;
+      task11.value = getTask11;
+      task12.value = getTask12;
+      task13.value = getTask13;
+      task14.value = getTask14;
+      task15.value = getTask15;
+      task16.value = getTask16;
+      task17.value = getTask17;
+      task18.value = getTask18;
+      task19.value = getTask19;
+      task20.value = getTask20;
+      task21.value = getTask21;
 
 //task completed button
             function markCompleted09(){
